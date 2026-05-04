@@ -1,0 +1,453 @@
+# Mandatory II - Learning Goals
+
+
+---
+
+**Learning goal:** Can navigate the terminal: ls, cd, whoami, pwd.
+
+**Svar:**
+Jeg kan godt finde rundt i terminalen og skifte mellem mapper.
+
+**Eksempel/snippet:**
+```bash
+pwd
+ls
+cd Documents
+whoami
+```
+
+**Konklusion:**
+I can do it!
+
+---
+
+**Learning goal:** Can create, delete files / folders: mkdir, rm, cp, mv, touch, nano.
+
+**Svar:**
+Jeg kan lave mapper og filer og også flytte, kopiere og slette dem i terminalen.
+
+**Eksempel/snippet:**
+```bash
+mkdir testmappe
+touch fil.txt
+cp fil.txt kopi.txt
+mv kopi.txt testmappe/
+rm fil.txt
+nano testmappe/noter.txt
+```
+
+**Konklusion:**
+I can do it!
+
+---
+
+**Learning goal:** Can use the following basic terminal commands: cat, wc, uniq, sort.
+
+**Svar:**
+Jeg kan bruge de mest almindelige kommandoer til at læse og sortere indhold i terminalen.
+
+**Eksempel/snippet:**
+```bash
+cat fil.txt
+wc fil.txt
+sort fil.txt
+uniq fil.txt
+```
+
+**Konklusion:**
+I can do it!
+
+---
+
+**Learning goal:** Can create a new repository in your preferred Git provider.
+
+**Svar:**
+Jeg kan oprette et nyt repository på fx GitHub og bruge det til et projekt.
+
+**Eksempel:**
+Jeg har prøvet at oprette et repository på GitHub, give det et navn og forbinde det med mit lokale projekt.
+
+**Konklusion:**
+I can do it!
+
+---
+
+**Learning goal:** Can perform basic Git operations: clone, add, commit, push, pull.
+
+**Svar:**
+Jeg kan bruge de grundlæggende Git-kommandoer til at hente et projekt og gemme mine ændringer.
+
+**Eksempel/snippet:**
+```bash
+git clone https://github.com/brugernavn/projekt.git
+git add .
+git commit -m "Første commit"
+git push
+git pull
+```
+
+**Konklusion:**
+I can do it!
+
+---
+
+**Learning goal:** Can list the main hardware components of a computer, their functions and the Von Neumann architecture.
+
+**Svar:**
+De vigtigste dele er CPU, RAM, lager, bundkort og input/output. Von Neumann-arkitekturen handler om, at både data og programmer ligger i den samme hukommelse.
+
+**Konklusion:**
+I can do it!
+
+---
+
+**Learning goal:** Can explain how computers work, starting from hardware all the way to software.
+
+**Svar:**
+En computer virker ved, at hardwaren udfører det, softwaren beder den om. Operativsystemet styrer ressourcerne, og programmerne kører ovenpå det.
+
+**Konklusion:**
+I can do it!
+
+---
+
+**Learning goal:** Can talk about processes in operating systems.
+
+**Svar:**
+En proces er et program, som kører. Operativsystemet holder styr på processer og fordeler fx CPU og hukommelse mellem dem.
+
+**Konklusion:**
+I can do it!
+
+---
+
+**Learning goal:** Can talk about different number representations such as: Binary, Hexadecimal, Decimal.
+
+**Svar:**
+Decimal er det talsystem, vi normalt bruger. Binær bruger kun 0 og 1, og hexadecimal bruger 0-9 og A-F.
+
+**Eksempel/snippet:**
+```text
+Decimal: 10
+Binary: 1010
+Hexadecimal: A
+```
+
+**Konklusion:**
+I can do it!
+
+---
+
+**Learning goal:** Can bring up real-world use cases for different number representations.
+
+**Svar:**
+Binær bruges inde i computeren. Hexadecimal bruges tit i programmering, fx til farvekoder. Decimal bruger vi normalt selv til hverdag.
+
+**Konklusion:**
+I can do it!
+
+---
+
+**Learning goal:** Can explain different charsets like ASCII and Unicode and how they differ.
+
+**Svar:**
+ASCII er et ældre tegnsæt med ret få tegn. Unicode kan indeholde mange flere tegn og bruges derfor i moderne systemer.
+
+**Konklusion:**
+I can do it!
+
+---
+
+**Learning goal:** Knows about different types of databases and their use cases.
+
+**Svar:**
+Der findes forskellige typer databaser, fx relationelle databaser som MySQL og NoSQL-databaser som MongoDB. Relationelle databaser er gode, når data har en fast struktur.
+
+---
+
+**Learning goal:** Can setup a new MySQL database and connect to it.
+
+**Svar:**
+Jeg kan godt oprette en MySQL-database og forbinde til den.
+
+**Eksempel/snippet:**
+```sql
+CREATE DATABASE webshop;
+USE webshop;
+```
+
+**Konklusion:**
+I can do it!
+
+---
+
+**Learning goal:** Can create DDL statements to create tables.
+
+**Svar:**
+Jeg kan lave DDL til at oprette tabeller.
+
+**Eksempel/snippet:**
+```sql
+CREATE TABLE users (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(100),
+    email VARCHAR(100)
+);
+```
+
+**Konklusion:**
+I can do it!
+
+---
+
+**Learning goal:** Can create DML (SELECT, INSERT) statements.
+
+**Svar:**
+Jeg kan bruge DML til at indsætte data og hente data ud igen.
+
+**Eksempel/snippet:**
+```sql
+INSERT INTO users (name, email)
+VALUES ('Mariam', 'mariam@email.dk');
+
+SELECT * FROM users;
+```
+
+**Konklusion:**
+I can do it!
+
+---
+
+**Learning goal:** Can use WHERE clause to filter results.
+
+**Svar:**
+Jeg kan bruge `WHERE`, når jeg vil filtrere resultater i en query.
+
+**Eksempel/snippet:**
+```sql
+SELECT * FROM users
+WHERE name = 'Mariam';
+```
+
+**Konklusion:**
+I can do it!
+
+---
+
+**Learning goal:** Can define Primary Keys.
+
+**Svar:**
+Jeg kan definere en primary key, så hver række har en unik værdi.
+
+**Eksempel/snippet:**
+```sql
+CREATE TABLE users (
+    id INT PRIMARY KEY,
+    name VARCHAR(100)
+);
+```
+
+**Konklusion:**
+I can do it!
+
+---
+
+**Learning goal:** Understands how Foreign Keys work.
+
+**Svar:**
+En foreign key bruges til at koble tabeller sammen. Den peger normalt på en primary key i en anden tabel.
+
+---
+
+**Learning goal:** In SELECT statements, can use (with moderate help): LIMIT, ORDER BY, GROUP BY.
+
+**Svar:**
+Jeg kan bruge `LIMIT`, `ORDER BY` og `GROUP BY` i SELECT, især hvis jeg lige må kigge på syntaksen.
+
+**Eksempel/snippet:**
+```sql
+SELECT name, COUNT(*)
+FROM users
+GROUP BY name
+ORDER BY name
+LIMIT 5;
+```
+
+**Konklusion:**
+I can do it!
+
+---
+
+**Learning goal:** In SELECT statements, can use aggregate functions like COUNT, SUM, AVG, MIN, and MAX.
+
+**Svar:**
+Jeg kan bruge aggregate functions til at regne på flere rækker på én gang.
+
+**Eksempel/snippet:**
+```sql
+SELECT COUNT(*), AVG(price), MIN(price), MAX(price)
+FROM products;
+```
+
+**Konklusion:**
+I can do it!
+
+---
+
+**Learning goal:** In SELECT statements, can use pattern matching with LIKE and wildcards.
+
+**Svar:**
+Jeg kan bruge `LIKE` og wildcards til at søge efter bestemte mønstre i tekst.
+
+**Eksempel/snippet:**
+```sql
+SELECT * FROM users
+WHERE name LIKE 'Ma%';
+```
+
+**Konklusion:**
+I can do it!
+
+---
+
+**Learning goal:** In SELECT statements, can use JOIN to combine data from multiple tables.
+
+**Svar:**
+Jeg kan bruge `JOIN`, når jeg skal kombinere data fra flere tabeller.
+
+**Eksempel/snippet:**
+```sql
+SELECT users.name, orders.id
+FROM users
+JOIN orders ON users.id = orders.user_id;
+```
+
+**Konklusion:**
+I can do it!
+
+---
+
+**Learning goal:** Can create inner, left and right joins after looking up the syntax.
+
+**Svar:**
+Jeg kan lave inner, left og right join, hvis jeg lige slår syntaksen op først.
+
+**Eksempel/snippet:**
+```sql
+SELECT *
+FROM users
+LEFT JOIN orders ON users.id = orders.user_id;
+```
+
+**Konklusion:**
+I can do it!
+
+---
+
+**Learning goal:** Can create DDL statements to create tables with constraints: PRIMARY KEY, AUTO_INCREMENT, FOREIGN KEY, UNIQUE, NOT NULL.
+
+**Svar:**
+Jeg kan oprette tabeller med de mest almindelige constraints.
+
+**Eksempel/snippet:**
+```sql
+CREATE TABLE orders (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    user_id INT NOT NULL,
+    order_number VARCHAR(50) UNIQUE,
+    FOREIGN KEY (user_id) REFERENCES users(id)
+);
+```
+
+**Konklusion:**
+I can do it!
+
+---
+
+**Learning goal:** Can create DML (UPDATE, DELETE) statements.
+
+**Svar:**
+Jeg kan opdatere og slette data med `UPDATE` og `DELETE`.
+
+**Eksempel/snippet:**
+```sql
+UPDATE users
+SET name = 'Maria'
+WHERE id = 1;
+
+DELETE FROM users
+WHERE id = 2;
+```
+
+**Konklusion:**
+I can do it!
+
+---
+
+**Learning goal:** Can create a pull request.
+
+**Svar:**
+Jeg kan lave en pull request, så andre kan se mine ændringer og merge dem.
+
+**Eksempel:**
+Jeg pusher min branch til GitHub og laver derefter en pull request derinde.
+
+**Konklusion:**
+I can do it!
+
+---
+
+**Learning goal:** Understands different Git workflows such as GitHub Flow.
+
+**Svar:**
+Jeg kender til GitHub Flow, hvor man typisk arbejder på en branch, laver commits, pusher den og derefter laver en pull request. Det gør det nemmere at arbejde sammen og holde styr på ændringer.
+
+---
+
+**Learning goal:** Can solve a merge conflict.
+
+**Svar:**
+Jeg kan løse en merge conflict ved at gennemgå filen, vælge de rigtige ændringer og committe bagefter.
+
+**Eksempel:**
+Hvis to personer har ændret i den samme linje, kan jeg rette konflikten manuelt og derefter lave et nyt commit.
+
+**Konklusion:**
+I can do it!
+
+---
+
+**Learning goal:** Can write YAML.
+
+**Svar:**
+Jeg kan skrive simpel YAML med nøgler og indrykning.
+
+**Eksempel/snippet:**
+```yaml
+name: My Workflow
+on: push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+```
+
+**Konklusion:**
+I can do it!
+
+---
+
+**Learning goal:** Understands what GitHub Actions are and can breakdown workflows into runners, jobs, and steps.
+
+**Svar:**
+GitHub Actions bruges til at automatisere ting i et repository, fx test eller build. En workflow består af jobs, og hvert job består af steps. En runner er den maskine, der kører workflowet.
+
+---
+
+**Learning goal:** Can give use cases for GitHub Actions.
+
+**Svar:**
+Jeg kan nævne use cases som automatisk test, build og deployment, når der bliver pushed kode til GitHub.
+
+**Konklusion:**
+I can do it!
