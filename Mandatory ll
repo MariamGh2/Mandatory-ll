@@ -1,453 +1,445 @@
-# Mandatory II - Learning Goals
+Mandatory II - Learning Goals
 
 
----
+Can navigate the terminal: ls, cd, whoami, pwd.
 
-**Learning goal:** Can navigate the terminal: ls, cd, whoami, pwd.
+pwd viser hvilken mappe man står i
+ls viser indholdet i mappen
+cd bruges til at skifte mappe
+whoami viser hvilken bruger man er logget ind som.
 
-**Svar:**
-Jeg kan godt finde rundt i terminalen og skifte mellem mapper.
-
-**Eksempel/snippet:**
-```bash
 pwd
 ls
-cd Documents
+cd test
 whoami
-```
 
-**Konklusion:**
 I can do it!
 
 ---
 
-**Learning goal:** Can create, delete files / folders: mkdir, rm, cp, mv, touch, nano.
+Can create, delete files / folders: mkdir, rm, cp, mv, touch, nano.
 
-**Svar:**
-Jeg kan lave mapper og filer og også flytte, kopiere og slette dem i terminalen.
+mkdir bruges til at lave en mappe
+touch til at lave en fil
+cp til at kopiere
+mv til at flytte og rm til at slette
+nano kan bruges til at åbne og skrive i en fil direkte i terminalen.
 
-**Eksempel/snippet:**
-```bash
-mkdir testmappe
-touch fil.txt
-cp fil.txt kopi.txt
-mv kopi.txt testmappe/
-rm fil.txt
-nano testmappe/noter.txt
-```
+mkdir testFolder
+touch file.txt
+cp file.txt kopi.txt
+mv kopi.txt ny.txt
+rm ny.txt
+nano file.txt
 
-**Konklusion:**
 I can do it!
 
 ---
 
-**Learning goal:** Can use the following basic terminal commands: cat, wc, uniq, sort.
+Can use the following basic terminal commands: cat, wc, uniq, sort.
 
-**Svar:**
-Jeg kan bruge de mest almindelige kommandoer til at læse og sortere indhold i terminalen.
+cat bruges til at læse indholdet af en fil, wc til at tælle fx linjer eller ord, sort til at sortere indhold og
+uniq til at finde eller fjerne dubletter.
 
-**Eksempel/snippet:**
-```bash
-cat fil.txt
-wc fil.txt
-sort fil.txt
-uniq fil.txt
-```
+cat file.txt
+wc file.txt
+sort file.txt
+uniq file.txt
 
-**Konklusion:**
 I can do it!
 
 ---
 
-**Learning goal:** Can create a new repository in your preferred Git provider.
+Can create a new repository in your preferred Git provider.
 
-**Svar:**
-Jeg kan oprette et nyt repository på fx GitHub og bruge det til et projekt.
+git init
+git remote add origin https://github.com/user/repo.git
 
-**Eksempel:**
-Jeg har prøvet at oprette et repository på GitHub, give det et navn og forbinde det med mit lokale projekt.
-
-**Konklusion:**
 I can do it!
 
 ---
 
-**Learning goal:** Can perform basic Git operations: clone, add, commit, push, pull.
+Can perform basic Git operations: clone, add, commit, push, pull.
 
-**Svar:**
-Jeg kan bruge de grundlæggende Git-kommandoer til at hente et projekt og gemme mine ændringer.
+clone bruges til at hente et repository ned, add til at gøre filer klar til commit, commit til at gemme ændringer,
+push til at sende dem op til GitHub og pull til at hente nye ændringer ned.
 
-**Eksempel/snippet:**
-```bash
-git clone https://github.com/brugernavn/projekt.git
+git clone <url>
 git add .
-git commit -m "Første commit"
+git commit -m "message"
 git push
 git pull
-```
 
-**Konklusion:**
 I can do it!
 
 ---
 
-**Learning goal:** Can list the main hardware components of a computer, their functions and the Von Neumann architecture.
+Can list the main hardware components of a computer, their functions and the Von Neumann architecture.
 
-**Svar:**
-De vigtigste dele er CPU, RAM, lager, bundkort og input/output. Von Neumann-arkitekturen handler om, at både data og programmer ligger i den samme hukommelse.
+De vigtigste dele er CPU, RAM, lager, bundkort og input/output. Von Neumann-arkitekturen handler om, at både data og
+programmer ligger i den samme hukommelse.
 
-**Konklusion:**
 I can do it!
 
 ---
 
-**Learning goal:** Can explain how computers work, starting from hardware all the way to software.
+Can explain how computers work, starting from hardware all the way to software.
 
-**Svar:**
-En computer virker ved, at hardwaren udfører det, softwaren beder den om. Operativsystemet styrer ressourcerne, og programmerne kører ovenpå det.
+En computer virker ved, at hardwaren udfører det, softwaren beder den om. Operativsystemet styrer ressourcerne,
+og programmerne kører ovenpå det.
 
-**Konklusion:**
 I can do it!
 
 ---
 
-**Learning goal:** Can talk about processes in operating systems.
+Can talk about processes in operating systems.
 
-**Svar:**
 En proces er et program, som kører. Operativsystemet holder styr på processer og fordeler fx CPU og hukommelse mellem dem.
 
-**Konklusion:**
+ps aux
+
 I can do it!
 
 ---
 
-**Learning goal:** Can talk about different number representations such as: Binary, Hexadecimal, Decimal.
+Can talk about different number representations such as: Binary, Hexadecimal, Decimal.
 
-**Svar:**
 Decimal er det talsystem, vi normalt bruger. Binær bruger kun 0 og 1, og hexadecimal bruger 0-9 og A-F.
 
-**Eksempel/snippet:**
-```text
 Decimal: 10
 Binary: 1010
 Hexadecimal: A
-```
 
-**Konklusion:**
+
 I can do it!
 
 ---
 
-**Learning goal:** Can bring up real-world use cases for different number representations.
+Can bring up real-world use cases for different number representations.
 
-**Svar:**
 Binær bruges inde i computeren. Hexadecimal bruges tit i programmering, fx til farvekoder. Decimal bruger vi normalt selv til hverdag.
 
-**Konklusion:**
 I can do it!
 
 ---
 
-**Learning goal:** Can explain different charsets like ASCII and Unicode and how they differ.
+Can explain different charsets like ASCII and Unicode and how they differ.
 
-**Svar:**
 ASCII er et ældre tegnsæt med ret få tegn. Unicode kan indeholde mange flere tegn og bruges derfor i moderne systemer.
 
-**Konklusion:**
 I can do it!
 
 ---
 
-**Learning goal:** Knows about different types of databases and their use cases.
+Knows about different types of databases and their use cases.
 
-**Svar:**
-Der findes forskellige typer databaser, fx relationelle databaser som MySQL og NoSQL-databaser som MongoDB. Relationelle databaser er gode, når data har en fast struktur.
+Der findes forskellige typer databaser, fx relationelle databaser som MySQL og NoSQL-databaser som MongoDB.
+Relationelle databaser er gode, når data har en fast struktur.
 
 ---
 
-**Learning goal:** Can setup a new MySQL database and connect to it.
+Can setup a new MySQL database and connect to it.
 
-**Svar:**
-Jeg kan godt oprette en MySQL-database og forbinde til den.
+En MySQL-database kan oprettes og forbindes til.
 
-**Eksempel/snippet:**
-```sql
+
 CREATE DATABASE webshop;
 USE webshop;
-```
 
-**Konklusion:**
+
 I can do it!
 
 ---
 
-**Learning goal:** Can create DDL statements to create tables.
+Can create DDL statements to create tables.
 
-**Svar:**
-Jeg kan lave DDL til at oprette tabeller.
+DDL kan bruges til at oprette tabeller.
 
-**Eksempel/snippet:**
-```sql
+
 CREATE TABLE users (
     id INT PRIMARY KEY AUTO_INCREMENT,
     name VARCHAR(100),
     email VARCHAR(100)
 );
-```
 
-**Konklusion:**
 I can do it!
 
 ---
 
-**Learning goal:** Can create DML (SELECT, INSERT) statements.
+Can create DML (SELECT, INSERT) statements.
 
-**Svar:**
-Jeg kan bruge DML til at indsætte data og hente data ud igen.
+DML kan bruges til at indsætte data og hente data ud igen.
 
-**Eksempel/snippet:**
-```sql
 INSERT INTO users (name, email)
 VALUES ('Mariam', 'mariam@email.dk');
 
 SELECT * FROM users;
-```
 
-**Konklusion:**
 I can do it!
 
 ---
 
-**Learning goal:** Can use WHERE clause to filter results.
+Can use WHERE clause to filter results.
 
-**Svar:**
-Jeg kan bruge `WHERE`, når jeg vil filtrere resultater i en query.
+`WHERE` bruges til at filtrere resultater i en query.
 
-**Eksempel/snippet:**
-```sql
 SELECT * FROM users
 WHERE name = 'Mariam';
-```
 
-**Konklusion:**
 I can do it!
 
 ---
 
-**Learning goal:** Can define Primary Keys.
+Can define Primary Keys.
 
-**Svar:**
-Jeg kan definere en primary key, så hver række har en unik værdi.
+En primary key kan defineres, så hver række har en unik værdi.
 
-**Eksempel/snippet:**
-```sql
 CREATE TABLE users (
     id INT PRIMARY KEY,
     name VARCHAR(100)
 );
-```
 
-**Konklusion:**
 I can do it!
 
 ---
 
-**Learning goal:** Understands how Foreign Keys work.
+Understands how Foreign Keys work.
 
-**Svar:**
 En foreign key bruges til at koble tabeller sammen. Den peger normalt på en primary key i en anden tabel.
 
 ---
 
-**Learning goal:** In SELECT statements, can use (with moderate help): LIMIT, ORDER BY, GROUP BY.
+In SELECT statements, can use (with moderate help): LIMIT, ORDER BY, GROUP BY.
 
-**Svar:**
-Jeg kan bruge `LIMIT`, `ORDER BY` og `GROUP BY` i SELECT, især hvis jeg lige må kigge på syntaksen.
+`LIMIT`, `ORDER BY` og `GROUP BY` kan bruges i SELECT, især hvis syntaksen lige bliver slået op.
 
-**Eksempel/snippet:**
-```sql
 SELECT name, COUNT(*)
 FROM users
 GROUP BY name
 ORDER BY name
 LIMIT 5;
-```
 
-**Konklusion:**
 I can do it!
 
 ---
 
-**Learning goal:** In SELECT statements, can use aggregate functions like COUNT, SUM, AVG, MIN, and MAX.
+In SELECT statements, can use aggregate functions like COUNT, SUM, AVG, MIN, and MAX.
 
-**Svar:**
-Jeg kan bruge aggregate functions til at regne på flere rækker på én gang.
+Aggregate functions kan bruges til at regne på flere rækker på én gang.
 
-**Eksempel/snippet:**
-```sql
+
 SELECT COUNT(*), AVG(price), MIN(price), MAX(price)
 FROM products;
-```
 
-**Konklusion:**
+
 I can do it!
 
 ---
 
-**Learning goal:** In SELECT statements, can use pattern matching with LIKE and wildcards.
+In SELECT statements, can use pattern matching with LIKE and wildcards.
 
-**Svar:**
-Jeg kan bruge `LIKE` og wildcards til at søge efter bestemte mønstre i tekst.
+`LIKE` og wildcards kan bruges til at søge efter bestemte mønstre i tekst.
 
-**Eksempel/snippet:**
-```sql
+
 SELECT * FROM users
 WHERE name LIKE 'Ma%';
-```
 
-**Konklusion:**
 I can do it!
 
 ---
 
-**Learning goal:** In SELECT statements, can use JOIN to combine data from multiple tables.
+In SELECT statements, can use JOIN to combine data from multiple tables.
 
-**Svar:**
-Jeg kan bruge `JOIN`, når jeg skal kombinere data fra flere tabeller.
+`JOIN` bruges, når data fra flere tabeller skal kombineres.
 
-**Eksempel/snippet:**
-```sql
+
 SELECT users.name, orders.id
 FROM users
 JOIN orders ON users.id = orders.user_id;
-```
 
-**Konklusion:**
 I can do it!
 
 ---
 
-**Learning goal:** Can create inner, left and right joins after looking up the syntax.
+Can create inner, left and right joins after looking up the syntax.
 
-**Svar:**
-Jeg kan lave inner, left og right join, hvis jeg lige slår syntaksen op først.
+Inner, left og right join kan laves, hvis syntaksen lige bliver slået op først.
 
-**Eksempel/snippet:**
-```sql
 SELECT *
 FROM users
 LEFT JOIN orders ON users.id = orders.user_id;
-```
 
-**Konklusion:**
 I can do it!
 
 ---
 
-**Learning goal:** Can create DDL statements to create tables with constraints: PRIMARY KEY, AUTO_INCREMENT, FOREIGN KEY, UNIQUE, NOT NULL.
+Can create DDL statements to create tables with constraints: PRIMARY KEY, AUTO_INCREMENT, FOREIGN KEY, UNIQUE, NOT NULL.
 
-**Svar:**
-Jeg kan oprette tabeller med de mest almindelige constraints.
+Tabeller kan oprettes med de mest almindelige constraints.
 
-**Eksempel/snippet:**
-```sql
+
 CREATE TABLE orders (
     id INT PRIMARY KEY AUTO_INCREMENT,
     user_id INT NOT NULL,
     order_number VARCHAR(50) UNIQUE,
     FOREIGN KEY (user_id) REFERENCES users(id)
 );
-```
 
-**Konklusion:**
 I can do it!
 
 ---
 
-**Learning goal:** Can create DML (UPDATE, DELETE) statements.
+Can create DML (UPDATE, DELETE) statements.
 
-**Svar:**
-Jeg kan opdatere og slette data med `UPDATE` og `DELETE`.
+Data kan opdateres og slettes med `UPDATE` og `DELETE`.
 
-**Eksempel/snippet:**
-```sql
+
 UPDATE users
 SET name = 'Maria'
 WHERE id = 1;
 
 DELETE FROM users
 WHERE id = 2;
-```
 
-**Konklusion:**
 I can do it!
 
 ---
 
-**Learning goal:** Can create a pull request.
+Can create a pull request.
 
-**Svar:**
-Jeg kan lave en pull request, så andre kan se mine ændringer og merge dem.
+En pull request kan laves, så andre kan se ændringerne og merge dem.
 
-**Eksempel:**
-Jeg pusher min branch til GitHub og laver derefter en pull request derinde.
+En branch pushes til GitHub, og derefter laves en pull request derinde.
 
-**Konklusion:**
+Opret branch
+Push til GitHub
+Tryk “New Pull Request”
+Merge
+
 I can do it!
 
 ---
 
-**Learning goal:** Understands different Git workflows such as GitHub Flow.
+Understands different Git workflows such as GitHub Flow.
 
-**Svar:**
-Jeg kender til GitHub Flow, hvor man typisk arbejder på en branch, laver commits, pusher den og derefter laver en pull request. Det gør det nemmere at arbejde sammen og holde styr på ændringer.
+GitHub Flow går typisk ud på at arbejde på en branch, lave commits, pushe den og derefter lave en pull request.
+Det gør det nemmere at arbejde sammen og holde styr på ændringer.
 
 ---
 
-**Learning goal:** Can solve a merge conflict.
+Can solve a merge conflict.
 
-**Svar:**
-Jeg kan løse en merge conflict ved at gennemgå filen, vælge de rigtige ændringer og committe bagefter.
+En merge conflict kan løses ved at gennemgå filen, vælge de rigtige ændringer og committe bagefter.
 
-**Eksempel:**
-Hvis to personer har ændret i den samme linje, kan jeg rette konflikten manuelt og derefter lave et nyt commit.
+Hvis to personer har ændret i den samme linje, kan konflikten rettes manuelt og derefter gemmes i et nyt commit.
 
-**Konklusion:**
 I can do it!
 
 ---
 
-**Learning goal:** Can write YAML.
+Can write YAML.
 
-**Svar:**
-Jeg kan skrive simpel YAML med nøgler og indrykning.
+YAML kan skrives med nøgler og indrykning.
 
-**Eksempel/snippet:**
-```yaml
 name: My Workflow
 on: push
 
 jobs:
   build:
     runs-on: ubuntu-latest
-```
 
-**Konklusion:**
 I can do it!
 
 ---
 
-**Learning goal:** Understands what GitHub Actions are and can breakdown workflows into runners, jobs, and steps.
+Understands what GitHub Actions are and can breakdown workflows into runners, jobs, and steps.
 
-**Svar:**
-GitHub Actions bruges til at automatisere ting i et repository, fx test eller build. En workflow består af jobs, og hvert job består af steps. En runner er den maskine, der kører workflowet.
+GitHub Actions bruges til at automatisere ting i et repository, fx test eller build. En workflow består af jobs,
+og hvert job består af steps. En runner er den maskine, der kører workflowet.
 
 ---
 
-**Learning goal:** Can give use cases for GitHub Actions.
+Can give use cases for GitHub Actions.
 
-**Svar:**
-Jeg kan nævne use cases som automatisk test, build og deployment, når der bliver pushed kode til GitHub.
+Use cases kan være automatisk test, build og deployment, når der bliver pushed kode til GitHub.
 
-**Konklusion:**
 I can do it!
+
+---
+
+Understands different cloud service models: IaaS, PaaS, SaaS.
+
+IaaS betyder, at man selv styrer mere af infrastrukturen, fx virtuelle maskiner. PaaS giver en platform,
+hvor man kan deploye sin applikation uden selv at skulle styre alt. SaaS er færdig software, som man bare bruger,
+fx Gmail eller Office 365.
+
+---
+
+Can deploy a web application to Azure App Service.
+
+En webapplikation kan deployes til Azure App Service og køres online.
+
+I can do it!
+
+---
+
+Understands the flow from pushing, GitHub Actions running, building the project and deployment to Azure.
+
+Flowet er, at koden først pushes til GitHub. Derefter starter GitHub Actions, bygger projektet og deployer det videre
+til Azure, hvis workflowet er sat op til det.
+
+---
+
+Adding a database to a Spring Project.
+
+En database kan tilføjes til et Spring-projekt ved at konfigurere forbindelsen i projektet og derefter bruge den i
+applikationen. Det sker typisk gennem application.properties eller application.yml.
+
+---
+
+Setting up a database in Azure.
+
+En database i Azure kan sættes op ved at oprette databasen i Azure-portalen og derefter konfigurere adgang, navn og
+login-oplysninger.
+
+---
+
+Can set up a database in Azure and connect it to an Azure App Service project with a guide.
+
+En database i Azure kan sættes op og forbindes til et Azure App Service-projekt ved at følge en guide trin for trin og
+indsætte de rigtige connection settings i projektet.
+
+I can do it!
+
+---
+
+Is able to go through scenarios that can cause concurrency problems in databases.
+
+Concurrency-problemer i databaser kan opstå, når flere brugere eller processer ændrer i de samme data samtidig.
+Det kan fx give fejl som tabte opdateringer eller data, der ikke længere passer sammen.
+
+I can do it!
+
+---
+
+Can explain what ACID is and why it solves concurrency problems for databases.
+
+ACID står for Atomicity, Consistency, Isolation og Durability. Det hjælper med at gøre databaseændringer sikre og
+stabile, så flere transaktioner ikke ødelægger data for hinanden. Den gør at databasen forbliver korrekt, selv hvis
+flere brugere arbejder samtidig eller systemet fejler.
+
+I can do it!
+
+---
+
+Is aware of the possibility to define transactions in SQL and JDBC.
+
+Transaktioner kan defineres både i SQL og i JDBC. Det bruges, når flere ændringer skal behandles samlet,
+så de enten alle bliver gemt eller alle bliver rullet tilbage.
+
+---
+
+Atomic structures.
+
+Atomic betyder, at en handling enten bliver gennemført helt eller slet ikke. Det er vigtigt i databaser og
+programmering, når data ikke må ende i en halvfærdig tilstand.
